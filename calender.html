@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <style>
+         .section{
+          border: 3px solid black;
+          width: 42vh;
+          margin: 20vh auto;
+          
+         }
+         h1{
+            font-size:4vh ;
+            margin-left: .4vh;
+         }
+         .dates{
+           list-style-type: none;
+           margin-left: 2.5vh;
+           
+         }
+         .day span{
+            margin: 1vh 1vh;
+            font-size: 2.5vh;
+         }
+         .day{
+            margin-top: 4vh;
+         }
+         .date-section{
+            display: grid;
+            grid-template-columns: repeat(7,5.7vh);
+            grid-auto-rows: 6vh;
+            
+            font-size: 2.2vh;
+            margin-top: 3.5vh;
+            text-align: center;
+
+         }
+         .dates:hover {
+            background-color: black;
+            color: cyan;
+            border-radius: 50%;
+            height: 3.2vh;
+            width: 3.2vh;
+         }
+
+        .dec{
+            grid-column-start: 4;
+            list-style-type: none;
+            /* margin-left: 3.5vh; */
+         }
+    </style>
+</head>
+<body>
+    <div class="section">
+       
+        <div class="calender" >
+            <h1 style="text-align:left ;"> December 2022</h1>
+           
+            <div class="day">
+                <Span>Mon</Span><Span>Tue</Span><Span>Wed</Span><Span>Thu</Span><Span>Fri</Span><Span>Sat</Span><Span>Sun</Span>
+            </div>
+            <div class="date-section">
+               <li class="dates dec">1</li>
+               <li class="dates">2</li>
+               <li class="dates">3</li>
+               <li class="dates">4</li>
+               <li class="dates">5</li>
+               <li class="dates">6</li>
+               <li class="dates">7</li>
+               <li class="dates">8</li>
+               <li class="dates">9</li>
+               <li class="dates">10</li>
+               <li class="dates">11</li>
+               <li class="dates">12</li>
+               <li class="dates">13</li>
+               <li class="dates">14</li>
+               <li class="dates">15</li>
+               <li class="dates">16</li>
+               <li class="dates">17</li>
+               <li class="dates">18</li>
+               <li class="dates">19</li>
+               <li class="dates">20</li>
+               <li class="dates">21</li>
+               <li class="dates">22</li>
+               <li class="dates">23</li>
+               <li class="dates">24</li>
+               <li class="dates">25</li>
+               <li class="dates">26</li>
+               <li class="dates">27</li>
+               <li class="dates">28</li>
+               <li class="dates">29</li>
+               <li class="dates">30</li>
+               <li class="dates">31</li>
+               
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
